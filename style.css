@@ -35,6 +35,12 @@ body {
   padding: 0.5rem 1rem;
   font-weight: 600;
   cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn:hover {
+  background-color: var(--primary-darker);
+  border-color: var(--primary-darker);
 }
 
 /* Header */
@@ -85,9 +91,13 @@ body {
 .hero__titleContainer__cta {
   border-color: var(--foreground-inverted);
   font-size: 1rem;
-  font-weight: 400;
   padding: 0.75rem 1rem;
   margin-top: 1rem;
+}
+
+.hero__titleContainer__cta:hover {
+  background-color: var(--foreground-inverted);
+  color: var(--primary-darker);
 }
 
 @media screen and (min-width: 1199.99px) {
