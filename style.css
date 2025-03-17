@@ -190,21 +190,17 @@ main {
   }
 
   .intro__description {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
 }
 
 @media screen and (min-width: 767.99px) {
   .intro__title {
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
 
   .intro__features__card__title {
-    font-size: 1.375rem;
-  }
-
-  .intro__features__card__description {
-    font-size: 1.125rem;
+    font-size: 1.25rem;
   }
 }
 
